@@ -1,0 +1,28 @@
+am@extends('layouts.app')
+
+@section('content')
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body { 
+    background-image: url('v2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+</style>
+</head>
+<body>
+
+<h1>The background-position Property</h1>
+<p>Here, the background image will be positioned centered at top.</p>
+
+@endsection
+
+
+</body>
+
+</html>
