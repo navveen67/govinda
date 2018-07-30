@@ -14,14 +14,16 @@
 
 
   <style>
-  left-padding:50px;
+  div {
+    padding: 70px;
+    border: 1px solid #4CAF50;
+}
   </style>
 </head>
 <body>
-  
-</body>
-</html>
+  <div>
 <h1>Contact</h1>
+
 
 {!!  Form::open(['url' => 'contact/submit'])  !!}
       <div class="form-group">
@@ -42,4 +44,11 @@
       
       .
    {!!  Form::close()  !!}
+
+   </div>
 @endsection
+
+
+
+</body>
+</html>
